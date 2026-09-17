@@ -1,0 +1,36 @@
+# Go
+/vendor/
+*.exe
+*.test
+*.out
+
+# Binaries
+wraith-agent
+wraith-agent.exe
+wraith-agent-macos
+cmd/server/server
+cmd/agent/agent
+
+# DB
+*.db
+*.db-shm
+*.db-wal
+
+# Certs
+*.crt
+*.key
+*.pem
+
+# Config
+server/config/config.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Build
+target/
